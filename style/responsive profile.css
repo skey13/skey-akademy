@@ -10,6 +10,7 @@
     flex-wrap: nowrap;
   }
   header{
+    width:100%;
     margin-bottom: 20px;
     border-radius: 20px;
   }
