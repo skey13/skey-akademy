@@ -1,0 +1,89 @@
+.setting-menu{
+  position: absolute;
+  width: 90%;
+  max-width: 350px;
+ /*  height: 500px; */
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0,0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+ /*  top: 68px; */
+ top: 100%;
+  right: 5%;
+  max-height: 0;
+  transition:max-height 0.3s ;
+}
+
+.setting-menu-height{
+  max-height: 450px;
+}
+/* dark-btn */
+#dark-btn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: gray;
+  width: 45px;
+  border-radius: 15px;
+  padding: 2px 3px;
+  cursor: pointer;
+  display: flex;
+  transition:  padding-left 0.5s , background 0.5s ;
+}
+
+#dark-btn span{
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#dark-btn.dark-btn-on{
+  padding-left: 25px;
+  background: black;
+}
+
+
+/* dark-btn */
+.user-profile a{
+  text-decoration: none;
+}
+
+.setting-menu-inner{
+  padding: 20px;
+
+}
+
+.setting-menu hr{
+  border: 0;
+  height: 1px;
+  background-color: rgb(68, 68, 68);
+  margin: 15px 0;
+}
+
+/* setting-links */
+.setting-links{
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.setting-links img{
+  width: 40px;
+}
+
+  .setting-links  .arrow-img{
+  width:15px;
+}
+
+.setting-links .setting-icon{
+  margin-right: 30px;
+}
+
+.setting-links a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}

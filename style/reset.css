@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --body-color:#efefef;
+  --bg-color:white;
+  --nav-color:blue;
+}
+
+.dark-theme{
+  --body-color:#000000;
+  --nav-color:black;
+  --bg-color:black;
+}
+
+
+
+body{
+  background:var(--body-color);
+  transition: background 0.3s;
+}

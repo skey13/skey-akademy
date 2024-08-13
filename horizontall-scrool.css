@@ -1,0 +1,9 @@
+.horizontall-scroll{
+  display: none;
+}
+
+.horizontall-scroll button{
+  display:block;
+  min-width: 100%;
+  padding: 10px;
+}
